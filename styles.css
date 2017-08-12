@@ -1,0 +1,64 @@
+/*Overall Design*/
+
+body{
+	/*i took out background-color:*/
+	font-family: Sans-Serif;
+
+}
+
+#wrapper{
+	width: 75em;
+	margin: 2em auto;
+	background-color: #fff;	
+}
+
+#header{
+	background-color: #3B597D;
+	margin: 0;
+	padding: 1em;
+	color: purple;
+}
+
+#main{
+	background-color: pink;/*i changed it to pink!*/
+    padding: 1em;
+}
+
+#sidebar{
+	background-color: #D68051;
+	padding: 1em;
+	width: 13em;
+	float: right;
+}
+
+#footer{
+	background-color: #3B597D;
+	margin: 0;
+	padding: 1em;
+	color: #fff;
+	clear: both;
+}
+#resultsBox {
+    border:1px green;
+    background-color:#EEEEFF;
+    overflow:auto;    
+    padding:5px 10px;
+}
+
+div#footer a{
+	color: #fff;
+}
+
+img{
+    border: 3px solid black;
+}
+
+button{
+    border: 3px solid black;
+    height: 30em;
+    width: 20em;
+    border: 20px outset #b37d00
+
+}
+
+
