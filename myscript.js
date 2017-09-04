@@ -59,3 +59,11 @@ for (i = 1; i < x.length; i++) {
 }
 
 writeResults("Hi I'm Coach Mcgirk, the soccer comic");
+
+
+$('#inputValue').keyup(writethis);
+$('#inputValue').keydown(writethis);
+ function writethis(){
+     var inputcontent = $(this).val()
+     $('#resultsBox').add("<p>"+inputcontent+"</p>")
+ }
